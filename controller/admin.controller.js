@@ -82,7 +82,7 @@ const forgetPassword = async (req, res,next) => {
         to: `${email}`,
         subject: "Password Reset",
         html: `<h2>Hello ${email}</h2>
-        <p>A request has been received to change the password for your <strong>SkinBUy</strong> account </p>
+        <p>A request has been received to change the password for your <strong>skinBuy</strong> account </p>
 
         <p>This link will expire in <strong> 10 minute</strong>.</p>
 
@@ -93,7 +93,7 @@ const forgetPassword = async (req, res,next) => {
         <p style="margin-top: 35px;">If you did not initiate this request, please contact us immediately at support@skinBuy.com</p>
 
         <p style="margin-bottom:0px;">Thank you</p>
-        <strong>SkinBuy Team</strong>
+        <strong>skinBuy Team</strong>
         `,
       };
       admin.confirmationToken = token;

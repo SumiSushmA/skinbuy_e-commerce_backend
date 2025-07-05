@@ -4,7 +4,7 @@ const { secret } = require('./secret');
 mongoose.set('strictQuery', false);
 
 // local url 
-const DB_URL = 'mongodb://0.0.0.0:27017/SkinBuy'; 
+const DB_URL = 'mongodb://127.0.0.1:27017/skinBuy';
 // mongodb url
 const MONGO_URI = secret.db_url;
 
