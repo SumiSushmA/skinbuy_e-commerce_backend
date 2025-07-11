@@ -2,6 +2,7 @@ const ApiError = require('../errors/api-error');
 const Category = require('../model/Category');
 const Products = require('../model/Products');
 
+
 // create category service
 exports.createCategoryService = async (data) => {
   const category = await Category.create(data);
