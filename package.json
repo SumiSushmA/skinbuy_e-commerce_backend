@@ -7,6 +7,7 @@
     "node": ">=16"
   },
   "scripts": {
+    "seed": "node seed.js",
     "start": "node index.js",
     "build": "node index.js",
     "start-dev": "nodemon index.js",
